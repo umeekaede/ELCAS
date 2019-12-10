@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import ctypes
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
@@ -20,16 +22,21 @@ def main():
 #    print(xu_list)
     xu_list=np.array(xu_list)
     xd_list=np.array(xd_list)
-    print(xu_list, xd_list)
+#    print(xu_list, xd_list)
     plt.ion
 
     for i in range(1, 200):
-      yu=plt.plot([-10, 10], [15, 15], c='Black')
-      yd=plt.plot([-10, 10], [-15, -15], c='Black')
+      yu=plt.plot([-10, 10], [15, 15], c='Black', lw=10)
+      yd=plt.plot([-10, 10], [-15, -15], c='Black', lw=10)
       plt.xlim(-13, 13)
       plt.ylim(-20, 20)
       #l1,= plt.plot([xd_list[i], xu_list[i]], [st_line(xd_list[i], xu_list[i], -12), st_line(xd_list[i], xu_list[i], 12)])
-      l1,= plt.plot([-10, 10], [st_line(xd_list[i], xu_list[i], -10), st_line(xd_list[i], xu_list[i], 10)])
+      if xd_list[i]!=xu_list[i]:
+          l1,= plt.plot([-10, 10], [st_line(xd_list[i], xu_list[i], -15), st_line(xd_list[i], xu_list[i], 15)], c='Red')
+      else:
+          print("hogehoge")
+          l1=plt.axvline(xd_list[i], c='Red')
+          print("hogehoge")
       #l2,= plt.plot([xd_list[i], xu_list[i]], [-15, 15], color='Red') #for check
       plt.draw()
 
@@ -43,7 +50,6 @@ def main():
       if input()=='q':
           break
     plt.close()
-
 
 if __name__=='__main__':
     main()
