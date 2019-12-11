@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import ctypes
 import matplotlib.pyplot as plt
-#from matplotlib.widgets import Button
 import numpy as np
+#from matplotlib.widgets import Button
 
 ''' define function '''
 def st_line(x1, x2, x):
@@ -11,7 +11,7 @@ def st_line(x1, x2, x):
 
 ''' main content code '''
 def main():
-    ''' read data file  part'''
+    ''' read data file part'''
     xu_list=[]
     xd_list=[]
 
@@ -24,6 +24,7 @@ def main():
     xu_list=np.array(xu_list)
     xd_list=np.array(xd_list)
     plt.ion
+    print(xu_list)
 
     ''' read file '''
     for i in range(1, 200):
