@@ -3,19 +3,23 @@ import ctypes
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 import numpy as np
+import re
 #from matplotlib.widgets import Button
 
+f = open('lengthfile.dat', 'rt')
+s=f.read()
+print(s)
+length = re.sub("\\D", "", s)
+ulength=int(length)/2
+dlength=-int(length)/2
+print()
+
 ''' define function '''
-
-
 def st_line(x1, x2, x):
-    y = (30/(x2-x1))*(x-x1)-15
+    y = (int(length)/(x2-x1))*(x-x1)+dlength
     return y
 
-
 ''' main content code '''
-
-
 def main():
     ''' read data file part'''
     xu_list = []
@@ -40,11 +44,11 @@ def main():
         plt.ylim(-20, 20)
 
         ''' plot Scintillator '''
-        yu, = plt.plot([-10, 10], [15, 15], c='Black', lw=10)
-        yd, = plt.plot([-10, 10], [-15, -15], c='Black', lw=10)
+        yu, = plt.plot([-3, 3], [ulength, ulength], c='Black', lw=10)
+        yd, = plt.plot([-10, 10], [dlength, dlength], c='Black', lw=10)
 
-        plt.plot(xd_list[i], -15, "*")
-        plt.plot(xu_list[i], 15, "*")
+        plt.plot(xd_list[i], dlength, "*", markersize=12)
+        plt.plot(xu_list[i], ulength, "*", markersize=12)
 
         ''' plot y=a*x+b '''
         print("No {0} hit !!!!".format(i+1))
@@ -52,8 +56,8 @@ def main():
             xd_list[i], xu_list[i]))
 
         if xd_list[i] != xu_list[i]:
-            plt.plot([-15, 15], [st_line(xd_list[i], xu_list[i], -15),
-                                 st_line(xd_list[i], xu_list[i], 15)], "r-", c='Red')
+            plt.plot([-13, 13], [st_line(xd_list[i], xu_list[i], -13),
+                                 st_line(xd_list[i], xu_list[i], 13)], "r-", c='Red')
         else:
             plt.axvline(xd_list[i], c='Red')
 #
@@ -70,8 +74,7 @@ def main():
             pass
         elif key == 'q':
             break
-        print("{0} hit\n".format(i+1))
-#        print()
+        print("{0} hit finish!!!\n".format(i))
     plt.close()
 
 
