@@ -41,14 +41,23 @@ def main():
       plt.plot(xu_list[i], 15, "*")
 
       ''' plot y=a*x+b '''
+      print(i)
+      print([xd_list[i], xu_list[i]])
       if xd_list[i]!=xu_list[i]:
-          l1,= plt.plot([xd_list[i], xu_list[i]], [st_line(xd_list[i], xu_list[i], -10), st_line(xd_list[i], xu_list[i], 10)], "r-", c='Red')
-          print([xd_list[i], xu_list[i]])
           print([st_line(xd_list[i], xu_list[i], xd_list[i]), st_line(xd_list[i], xu_list[i], xu_list[i])])
+          print(30/(xd_list[i]-xu_list[i]), 30/(xd_list[i]-xu_list[i])*(xu_list[i]-xd_list[i]) )
       else:
-          l1, =plt.axvline(xd_list[i], c='Red')
+          print("hoge")
 
-      ''' draw part '''
+      if xd_list[i]!=xu_list[i]:
+          #plt.plot([xd_list[i], xu_list[i]], [st_line(xd_list[i], xu_list[i], xd_list[i]), st_line(xd_list[i], xu_list[i], xu_list[i])], "r-", c='Red')
+          plt.plot([-15, 15], [st_line(xd_list[i], xu_list[i], -15), st_line(xd_list[i], xu_list[i], 15)], "r-", c='Red')
+          #print([xd_list[i], xu_list[i]])
+          #print([st_line(xd_list[i], xu_list[i], xd_list[i]), st_line(xd_list[i], xu_list[i], xu_list[i])])
+      else:
+          plt.axvline(xd_list[i], c='Red')
+#
+      #''' draw part '''
       plt.draw()
       plt.pause(0.3)
       plt.cla()
