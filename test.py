@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-
-fig=plt.figure(figsize=(8.0, 6.0))
-ax=fig.add_subplot(111)
-plt.show()
+#for i in range(0, 200):
+i = 0
+while i<20000:
+  key = input()
+  if key == '':
+    print("hoge")

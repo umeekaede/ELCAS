@@ -26,7 +26,12 @@ def main():
     # グラフ描画位置の設定
     fig=plt.figure(figsize=(8.0, 6.0))
     ax=fig.add_subplot(111)
-    #plt.subplots_adjust(left=0.1, bottom=0.15)
+    #plt.subplots_adjust(left=0.1, bottom=0.15#!/usr/bin/env python
+import time
+
+while True:
+    print "Hello"
+    time.sleep(1))
 
     # グラフ描画
     plt.grid()
