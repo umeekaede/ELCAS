@@ -1,0 +1,644 @@
+0
+Hello
+Traceback (most recent call last):
+  File "teiki.py", line 9, in <module>
+    subprocess.run(['rsync', '-avzP', 'iumezaki:~/ume.cc', '.'])
+AttributeError: 'module' object has no attribute 'run'
+0
+Hello
+Traceback (most recent call last):
+  File "teiki.py", line 9, in <module>
+    subprocess.run(['rsync', '-avzP', 'iumezaki:~/ume.cc', '.'])
+AttributeError: 'module' object has no attribute 'run'
+0
+Hello
+Traceback (most recent call last):
+  File "teiki.py", line 9, in <module>
+    subprocess.run(['rsync', '-avzP', 'iumezaki:~/ume.cc', '.'])
+AttributeError: 'module' object has no attribute 'run'
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+ume.cc
+           0   0%    0.00kB/s    0:00:00        3689 100%    3.52MB/s    0:00:00 (xfer#1, to-check=0/1)
+
+sent 38 bytes  received 1333 bytes  2742.00 bytes/sec
+total size is 3689  speedup is 2.69
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  70.00 bytes/sec
+total size is 3689  speedup is 35.13
+Warning: untrusted X11 forwarding setup failed: xauth key data not generated
+receiving file list ... 
+1 file to consider
+
+sent 16 bytes  received 89 bytes  210.00 bytes/sec
+total size is 3689  speedup is 35.13

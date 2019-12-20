@@ -9,39 +9,18 @@ import re
 f = open('lengthfile.dat', 'rt')
 s=f.read()
 print(s)
-length = float(re.sub("\\D", "", s))
-ulength=(length)/2
-dlength=-(length)/2
+length = re.sub("\\D", "", s)
+ulength=int(length)/2
+dlength=-int(length)/2
 print()
-
-v_prime=2.6e+8 # m/s
-c=3.0e+8 # m/s
-
-l=0.30 # m sin length
-L=0.15 # m btw sts
-t=0.5*10**(-9)  #s 30cm/1ns
-
-a=4*((v_prime/c)**2-1)
-b=4*(2*v_prime*t-l)
-c=(4*(L*v_prime/c)**2)-4*(v_prime*t)**2-l**2+4*v_prime*t*l
 
 ''' define function '''
 def st_line(x1, x2, x):
     y = (float(length)/(x2-x1))*(x-x1)+dlength
     return y
 
-''' quadratic_equation '''
-def solv_quadratic_equation(a, b, c):
-    D = (b**2 - 4*a*c) ** (1/2)
-    x_1 = (-b + D) / (2 * a)
-    x_2 = (-b - D) / (2 * a)
-    return x_1, x_2
-
 ''' main content code '''
 def main():
-    ans=solv_quadratic_equation(a, b, c)
-    print(ans)
-
     ''' read data file part'''
     xu_list = []
     xd_list = []
@@ -85,6 +64,7 @@ def main():
         #''' draw part '''
         plt.draw()
         plt.pause(0.3)
+        plt.cla()
 
         key = input()
         if key == 'b':
@@ -95,7 +75,6 @@ def main():
         elif key == 'q':
             break
         print("{0} hit finish!!!\n".format(i))
-        plt.cla()
     plt.close()
 
 

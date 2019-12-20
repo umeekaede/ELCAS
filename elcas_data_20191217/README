@@ -1,0 +1,9 @@
+/* 
+   Data that were taken in Tandem on Dec 17
+   K. Katayama, T. Toyoda, E. Umezaki, T. Gogami
+*/
+
+data6: Setup for event display (L ~ 30 cm)
+data7: far side
+data8: near side
+data9: near side timing cable was removed (timings of two signals are the same to be used for coin)
